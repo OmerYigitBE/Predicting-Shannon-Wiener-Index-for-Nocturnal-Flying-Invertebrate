@@ -1,6 +1,8 @@
 # Predicting Shannon Wiener Index (SWI) for Nocturnal Flying Invertebrate
 In this project, I analyzed a biodiversity data to build a parametric regression model for SWI - a measure of biodiversity. Then, I investigated a possible association between duration and temperature, using non-parametric techniques.
 
+Codes are provided, and the analysis results with graphs and tables are included in the report. Below is a summary of the analysis.
+
 ## Data
 The data holds 400 records of flying nocturnal invertebrate (e.g., insects such as moths, beetles, mosquitos, etc.) biodiversity, based on 400 sampling events in 2017 in the Belgian province of Limburg. Each sampling event was carried out on a patch, being a small nature area that has been subject to nature management for at least 3 months. Each patch was visited only once (so the 400 data points reflect 400 different locations). We assume spatially uncorrelated data, as is indicated by an exploratory test for spatial autocorrelation (not shown). Sampling was carried out by catching the invertebrates in a net in the evening. Sampling events were carried out from the beginning of Spring until the middle of Summer, when sampling stopped because of extreme heat. Note that multiple sampling events could be carried out on the same day by different persons. Also note that the dataset is ordered chronologically. However, information about the exact dates is not provided.
 
